@@ -2,9 +2,9 @@
   {
     "name": "Tachiyomi: Asura Scans",
     "pkg": "eu.kanade.tachiyomi.extension.en.asurascans",
-    "apk": "apk/tachiyomi-en.asurascans-v1.4.49.apk",
+    "apk": "https://raw.githubusercontent.com/Vacbo/vacbo_custom_tachi_extensions/main/repo/apk/tachiyomi-en.asurascans-v1.4.49.apk",
     "lang": "en",
-    "code": 49,
+    "versionCode": 49,
     "version": "1.4.49",
     "nsfw": 0,
     "sources": [
