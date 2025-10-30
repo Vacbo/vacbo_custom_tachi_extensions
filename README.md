@@ -47,6 +47,10 @@ https://raw.githubusercontent.com/Vacbo/vacbo_custom_tachi_extensions/main/index
 3. Copy cookies from browser DevTools (or Bearer token)
 4. Paste into "Paste cookie or token" field
 
+**iOS (Mihon) tip:** Enable **Settings → Safari → Advanced → Web Inspector**, sign in to Asura Scans in Safari, then use a paired Mac's Safari Web Inspector to copy cookies. Paste the resulting cookie string into the field above—Mihon does not support the embedded WebView flow.
+
+**Fallback handling:** If the embedded WebView cannot be launched on Android (custom ROMs, profile restrictions, etc.), the extension automatically prompts you to switch to the cookie method and keeps premium access once the cookies are saved.
+
 #### Premium Chapters
 
 - When **authenticated**: Premium chapters are visible and accessible
