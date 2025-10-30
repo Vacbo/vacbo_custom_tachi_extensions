@@ -8,7 +8,7 @@ Add this repository to your Keiyoushi/Mihon app:
 
 **Repository URL:**
 ```
-https://raw.githubusercontent.com/vacbo/vacbo_custom_extensions/repo/index.min.json
+https://raw.githubusercontent.com/vacbo/vacbo_custom_tachi_extensions/repo/index.min.json
 ```
 
 ### Steps:
