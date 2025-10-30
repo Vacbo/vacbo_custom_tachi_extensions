@@ -1,0 +1,22 @@
+# APK files (temporarily, before commit)
+# *.apk
+
+# Keystore files (if accidentally placed here)
+*.jks
+*.keystore
+
+# Build artifacts
+build/
+.gradle/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
