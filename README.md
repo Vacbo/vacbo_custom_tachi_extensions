@@ -7,11 +7,13 @@ Custom Tachiyomi/Keiyoushi extensions repository with enhanced features.
 Add this repository to your Keiyoushi/Mihon app:
 
 **Repository URL:**
-```
+
+```text
 https://raw.githubusercontent.com/Vacbo/vacbo_custom_tachi_extensions/main/index.min.json
 ```
 
-### Steps:
+### Steps
+
 1. Open Keiyoushi/Mihon
 2. Go to **Settings** → **Extension** → **Extension Repositories**
 3. Tap **Add** (+ icon)
@@ -23,29 +25,27 @@ https://raw.githubusercontent.com/Vacbo/vacbo_custom_tachi_extensions/main/index
 ## Extensions
 
 ### Asura Scans
+
 - **Language**: English
 - **Version**: 1.4.49
 - **Features**:
-  - ✅ Cookie/token paste authentication (cross-platform compatible)
-  - ✅ Custom CookieJar for WebView cookie synchronization
+  - ✅ Automatic WebView cookie synchronization (cross-platform compatible)
+  - ✅ Custom CookieJar for seamless authentication
   - ✅ Premium/early chapter access (Asura+ Premium)
   - ✅ Max quality images (Asura+ Basic/Premium)
   - ✅ Automatic fallback for missing max quality images
-  - ✅ Session management with automatic expiry detection
+  - ✅ Session expiry detection and handling
 
 #### Authentication
 
-**Method 1: WebView (automatic cookie sync)**
+#### WebView Login (automatic cookie sync)
+
 1. Login via WebView in the app
 2. Navigate to `https://asuracomic.net` and sign in
-3. Cookies sync automatically via CookieJar
+3. Cookies sync automatically via CookieJar - no manual steps required
 
-**Method 2: Manual cookie paste**
-1. Copy cookies from browser DevTools or Web Inspector
-2. Go to Extension Settings → Asura Scans
-3. Paste into "Cookie or token" field
+#### Subscription tiers
 
-**Subscription tiers**:
 - **Asura+ Basic**: Max quality images + ad-free experience
 - **Asura+ Premium**: Early access chapters + all Basic benefits
 
@@ -74,4 +74,3 @@ Report issues or request features through the repository issues page.
 ## License
 
 Extensions follow the original source licensing. This repository is for distribution only.
-
