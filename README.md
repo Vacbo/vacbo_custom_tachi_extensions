@@ -26,40 +26,39 @@ https://raw.githubusercontent.com/Vacbo/vacbo_custom_tachi_extensions/main/index
 - **Language**: English
 - **Version**: 1.4.49
 - **Features**:
-  - ✅ WebView login for authentication
-  - ✅ Cookie/token paste authentication (alternative)
-  - ✅ Premium/early chapter access for authenticated users
-  - ✅ High-resolution image support with automatic fallback
+  - ✅ Cookie/token paste authentication (cross-platform compatible)
+  - ✅ Custom CookieJar for WebView cookie synchronization
+  - ✅ Premium/early chapter access (Asura+ Premium)
+  - ✅ Max quality images (Asura+ Basic/Premium)
+  - ✅ Automatic fallback for missing max quality images
   - ✅ Session management with automatic expiry detection
 
-#### Authentication Methods
+#### Authentication
 
-**WebView Login (Recommended)**:
-1. Go to Extension Settings → Asura Scans
-2. Select "Authentication method" → "WebView login"
-3. Tap "Launch WebView login"
-4. Log in through the embedded browser
-5. Press back when done
+**Method 1: WebView (automatic cookie sync)**
+1. Login via WebView in the app
+2. Navigate to `https://asuracomic.net` and sign in
+3. Cookies sync automatically via CookieJar
 
-**Cookie Paste (Alternative)**:
-1. Go to Extension Settings → Asura Scans
-2. Select "Authentication method" → "Paste cookie or token"
-3. Copy cookies from browser DevTools (or Bearer token)
-4. Paste into "Paste cookie or token" field
+**Method 2: Manual cookie paste**
+1. Copy cookies from browser DevTools or Web Inspector
+2. Go to Extension Settings → Asura Scans
+3. Paste into "Cookie or token" field
 
-**iOS (Mihon) tip:** Enable **Settings → Safari → Advanced → Web Inspector**, sign in to Asura Scans in Safari, then use a paired Mac's Safari Web Inspector to copy cookies. Paste the resulting cookie string into the field above—Mihon does not support the embedded WebView flow.
-
-**Fallback handling:** If the embedded WebView cannot be launched on Android (custom ROMs, profile restrictions, etc.), the extension automatically prompts you to switch to the cookie method and keeps premium access once the cookies are saved.
+**Subscription tiers**:
+- **Asura+ Basic**: Max quality images + ad-free experience
+- **Asura+ Premium**: Early access chapters + all Basic benefits
 
 #### Premium Chapters
 
 - When **authenticated**: Premium chapters are visible and accessible
 - When **unauthenticated**: Premium chapters are hidden by default (can be toggled in settings)
 
-#### High-Resolution Images
+#### Max Quality Images
 
-- Enable "Force high quality chapter images" in settings
-- Automatically falls back to standard quality if hi-res unavailable
+- Enable "Enable max quality" in settings
+- Requires Asura+ Basic/Premium subscription
+- Automatically falls back to standard quality if max quality unavailable
 - Increases bandwidth by ~50% when enabled
 
 ## Repository Information
